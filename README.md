@@ -6,33 +6,45 @@ Student Result Management System
 This is a simple menu-driven Java application that manages student records, validates marks using custom exceptions, and displays results based on average marks.
 
 
-# Features
+## Features
+
 -Add new student details
+
 -Enter and validate marks (0–100)
+
 -Custom exception handling (InvalidMarksException)
+
 -Calculate average marks
+
 -Display student information and pass/fail status
+
 -Search student using roll number
+
 -Input validation using try-catch and InputMismatchException
+
 -Simple, clean menu interface
 
-#File Contains
+
+## File Contains
 -InvalidMarksException – Custom exception for invalid marks
+
 -Student – Class that stores student details and performs validation
+
 -StudentResultManager – Menu-driven controller class
 
-#How to Run
 
-Compile the Java program
+## How to Run
+
+1.Compile the Java program
 
 javac StudentResultManager.java
 
 
-Run the program
+2.Run the program
 
 java StudentResultManager
 
-💻 Sample Interaction
+## Sample Interaction
 ===== Student Result Management System =====
 1. Add Student
 2. Show Student Details
