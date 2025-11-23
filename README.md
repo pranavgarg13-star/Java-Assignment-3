@@ -8,41 +8,37 @@ This is a simple menu-driven Java application that manages student records, vali
 
 ## Features
 
--Add new student details
+- Add new student details
 
--Enter and validate marks (0–100)
+- Enter and validate marks (0–100)
 
--Custom exception handling (InvalidMarksException)
+- Custom exception handling (InvalidMarksException)
 
--Calculate average marks
+- Calculate average marks
 
--Display student information and pass/fail status
+- Display student information and pass/fail status
 
--Search student using roll number
+- Search student using roll number
 
--Input validation using try-catch and InputMismatchException
+- Input validation using try-catch and InputMismatchException
 
--Simple, clean menu interface
+- Simple, clean menu interface
 
 
 ## File Contains
--InvalidMarksException – Custom exception for invalid marks
+- InvalidMarksException – Custom exception for invalid marks
 
--Student – Class that stores student details and performs validation
+- Student – Class that stores student details and performs validation
 
--StudentResultManager – Menu-driven controller class
+- StudentResultManager – Menu-driven controller class
 
 
 ## How to Run
 
-1.Compile the Java program
-
-javac StudentResultManager.java
+1. Compile the Java program : javac StudentResultManager.java
 
 
-2.Run the program
-
-java StudentResultManager
+2. Run the program : java StudentResultManager
 
 ## Sample Interaction
 ===== Student Result Management System =====
@@ -51,12 +47,19 @@ java StudentResultManager
 3. Exit
 Enter your choice: 1
 
+
 Enter Roll Number: 101
+
 Enter Student Name: Rohan
+
 Enter marks for subject 1: 85
+
 Enter marks for subject 2: 78
+
 Enter marks for subject 3: 92
+
 Student added successfully. Returning to main menu...
+
 
 ===== Student Result Management System =====
 1. Add Student
@@ -64,9 +67,16 @@ Student added successfully. Returning to main menu...
 3. Exit
 Enter your choice: 2
 
+
 Enter Roll Number to search: 101
+
 Roll Number: 101
+
 Student Name: Rohan
+
 Marks: 85 78 92
+
 Average: 85.0
+
 Result: Pass
+
