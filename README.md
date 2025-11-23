@@ -1,8 +1,13 @@
 Java-Assignment
-By : Pranav Garg , Roll No. : 2401010034
+
+By : Pranav Garg ,
+Roll No. : 2401010034
+
 Student Result Management System
 
+
 This is a simple menu-driven Java application that manages student records, validates marks using custom exceptions, and displays results based on average marks.
+
 
 📌 Features
 
