@@ -1,41 +1,27 @@
-Java-Assignment
-
-By : Pranav Garg ,
-Roll No. : 2401010034
+# Java Assignment 3
+By : Pranav Garg , Roll No. : 2401010034
 
 Student Result Management System
-
 
 This is a simple menu-driven Java application that manages student records, validates marks using custom exceptions, and displays results based on average marks.
 
 
-📌 Features
+# Features
+-Add new student details
+-Enter and validate marks (0–100)
+-Custom exception handling (InvalidMarksException)
+-Calculate average marks
+-Display student information and pass/fail status
+-Search student using roll number
+-Input validation using try-catch and InputMismatchException
+-Simple, clean menu interface
 
-Add new student details
+#File Contains
+-InvalidMarksException – Custom exception for invalid marks
+-Student – Class that stores student details and performs validation
+-StudentResultManager – Menu-driven controller class
 
-Enter and validate marks (0–100)
-
-Custom exception handling (InvalidMarksException)
-
-Calculate average marks
-
-Display student information and pass/fail status
-
-Search student using roll number
-
-Input validation using try-catch and InputMismatchException
-
-Simple, clean menu interface
-
-📁 File Contains
-
-InvalidMarksException – Custom exception for invalid marks
-
-Student – Class that stores student details and performs validation
-
-StudentResultManager – Menu-driven controller class
-
-📝 How to Run
+#How to Run
 
 Compile the Java program
 
